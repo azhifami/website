@@ -1,11 +1,14 @@
 // js/auth.js
 // Ganti firebaseConfig di bawah dengan config dari Firebase Console
 const firebaseConfig = {
-  apiKey: "REPLACE_API_KEY",
-  authDomain: "REPLACE_PROJECT.firebaseapp.com",
-  projectId: "REPLACE_PROJECT_ID",
-  // ... sisanya jika ada
-};
+    apiKey: "AIzaSyB3uUZVQi1yq-XuzaP9LV5a_0-TJyIAHTw",
+    authDomain: "ilmu-coding.firebaseapp.com",
+    projectId: "ilmu-coding",
+    storageBucket: "ilmu-coding.firebasestorage.app",
+    messagingSenderId: "612619782484",
+    appId: "1:612619782484:web:a317f2bfacc28291fe20c1",
+    measurementId: "G-63L7V9Q48K"
+  };
 
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
